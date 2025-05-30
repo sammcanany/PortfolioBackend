@@ -71,7 +71,8 @@ It receives contact form data and sends it to your email using Nodemailer and Gm
 
 ## Deployment
 
-You can deploy this backend to any Node.js-compatible host (Render, Heroku, etc.).  
+This backend is deployed and running on [Render](https://render.com/).  
+You can deploy your own instance to Render or any Node.js-compatible host (Render, Heroku, etc.).  
 Make sure to set the required environment variables in your hosting platform.
 
 ---
