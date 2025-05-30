@@ -31,4 +31,7 @@ app.post('/api/contact', async (req, res) => {
 })
 
 const PORT = process.env.PORT || 5000
-app.listen(PORT, () => console.log(`Backend running on port ${PORT}`))
+const server = app.listen(PORT, () => console.log(`Backend running on port ${PORT}`))
+
+server.keepAliveTimeout = 120 * 1000
+server.headersTimeout = 120 * 1000
